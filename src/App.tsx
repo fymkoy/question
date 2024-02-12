@@ -14,20 +14,20 @@ export default function Page() {
     const phrases = [
       "No",
       "Sure kana dyan?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
+      "sure na sure?",
+      "sure na talaga?",
+      "talagang talaga?",
+      "last chance mo na to",
+      "pagisipan mo maigi",
+      "pagisipan mo ulit",
+      "sure kana talaga?",
+      "pagsisihan mo to logbi",
+      "ay nako po",
+      "ano, no pa din?",
+      "ganon pa din?",
+      "mwamwa, ayaw pa din?",
+      "HMMMMMM LAST CHANCE",
+      "HEH WALA KA MAGAGAWA BLE BLE",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">Ok yay!!!</div>
+          <div className="my-4 text-4xl font-bold">HEHE OKI I LOVE YOU BABE MWAMWA</div>
         </>
       ) : (
         <>
@@ -46,7 +46,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Will you be my Valentine babe ko?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
