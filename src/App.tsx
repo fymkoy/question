@@ -13,7 +13,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
+      "Sure kana dyan?",
       "Really sure?",
       "Think again!",
       "Last chance!",
